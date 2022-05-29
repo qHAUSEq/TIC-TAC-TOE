@@ -86,7 +86,6 @@ link:
 				exit(0);
 			}
 			}
-			break;
 		}
 		case ESCAPE:
 		{
