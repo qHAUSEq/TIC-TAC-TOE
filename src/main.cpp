@@ -5,7 +5,7 @@ int main()
 	SetConsoleTitle("TIC-TAC-TOE ");
 	system("cls");
 
-	ConsoleShrift();
+	ConsoleFontSize();
 	ConsoleCursorVisible(false, 100);
 
 	StartFunc();
