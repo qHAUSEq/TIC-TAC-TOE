@@ -5,7 +5,7 @@ int num = 0;
 char ch;
 HANDLE hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
 
-void ConsoleShrift()
+void ConsoleFontSize()
 {
 	CONSOLE_FONT_INFOEX fontInfo;
 	fontInfo.cbSize = sizeof(fontInfo);
@@ -433,7 +433,7 @@ void Print_Field(int* active_menu, int qty[])
 			}
 			cout << endl;
 		}
-		qty[i] = qt; // Äëÿ îïðåäåëåíèÿ íîìåðà êâàäðàòà
+		qty[i] = qt; // Ã„Ã«Ã¿ Ã®Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã¥Ã­Ã¨Ã¿ Ã­Ã®Ã¬Ã¥Ã°Ã  ÃªÃ¢Ã Ã¤Ã°Ã Ã²Ã 
 		qt++;
 	}
 }
