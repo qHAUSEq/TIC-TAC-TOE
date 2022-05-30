@@ -15,7 +15,7 @@ using std::ifstream;
 using std::getline;
 
 void SetColor(int text, int background);
-void ConsoleShrift();
+void ConsoleFontSize();
 void ConsoleCursorVisible(bool show, short size);
 void GoToXY(int xpos, int ypos);
 
